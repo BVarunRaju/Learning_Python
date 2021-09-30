@@ -15,15 +15,14 @@ def plus_minus():
     print('+','-'*4,'+','-'*4,'+')
 
 def vertical_bars():
-    print('|',' '*4,'|',' '*4,'|')
+    for i in range(0,4):                      #repeats the vertical bar grid 4 times
+        print('|',' '*4,'|',' '*4,'|')
 
 def grid():
     plus_minus()           
-    for i in range(0,4):      #repeats the calling of the function 4 times
-        vertical_bars()
+    vertical_bars()
     plus_minus()
-    for j in range(0,4):
-        vertical_bars()
+    vertical_bars()
     plus_minus()
 
 #Main Function
