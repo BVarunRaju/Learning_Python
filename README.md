@@ -1,5 +1,5 @@
 # Learning_Python
-Programs chronologically created to display my progress at learning python 
+Programs created to display my progress at learning python 
 
 Most of the programs I have written here are the exercises and questions from the following two books:       
 Think Python: How to think like a computer scientist by Allen B Downey       
